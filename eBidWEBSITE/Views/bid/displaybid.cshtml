@@ -1,0 +1,288 @@
+﻿@model IEnumerable<eBidWEBSITE.Models.tblBid>
+
+@{
+    ViewBag.Title = "displaybid";
+    Layout = "~/Views/dashboard/_dashboard.cshtml";
+}
+
+
+<link rel="stylesheet" href="~/css/reset.css">
+
+<link rel="stylesheet" href="~/css/responsive.css">
+
+<link rel="stylesheet" href="~/css/font-awesome.css">
+
+
+
+
+
+
+
+
+
+
+<!-- End Breadcrumbs -->
+@*<!-- Shopping Cart -->
+<div class="shopping-cart section">
+  
+
+        <div class="row">
+
+
+
+
+
+            <div class="col-12">
+                <!-- Shopping Summery -->
+                <table class="table shopping-summery">
+                    <thead>
+                        <tr class="main-hading">
+
+                            <th>Image</th>
+                            <th>PRODUCT</th>
+                           
+                            <th class="text-center">Bid PRICE</th>
+                            <th class="text-center">Description</th>
+                            <th class="text-center">End Date</th>
+                            <th class="text-center"><i class="ti-trash remove-icon"></i>delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+
+                            <tr>
+
+                                <td class="image" data-title="No"><img src="~/bidsUploads/@item.bid_Image" alt="#"></td>
+                                <td class="product-name">
+
+                                    @Html.DisplayFor(modelItem => item.bid_Name)
+                                </td>
+
+
+                              
+
+                                <td class="price" data-title="MIN Amount"><span> @item.bid_MINamount</span></td>
+
+
+
+                                <td class="product-des" data-title="Description">
+                                    <div class="ui-widget-content resizable">
+                                        <p class="ui-widget-header">@item.bid_Description</p>
+                                    </div>
+                                  
+
+                                </td>
+
+                                <td class="total-amount" ><span>@item.bid_endTime)</span></td>
+
+
+                                <td class="action" data-title="Remove"><a href="@Url.Action("Delete", "BID", new { id = item.BidID })"><i class="ti-trash remove-icon" style="color:#808080;"></i></a></td>
+
+
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <!--/ End Shopping Summery -->
+            </div>
+        </div>
+    </div>*@
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card my-4">
+                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                        <h6 class="text-white text-capitalize ps-3">BIDS PRODUCTS LIST</h6>
+                    </div>
+                </div>
+                <div class="card-body px-0 pb-2">
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Bid</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">NAME</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Category</th>
+
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Bid PRICE</th>
+                                  
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">End Date</th>
+                                    <th class="text-secondary opacity-7">Delete</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex px-2 py-1">
+                                                <div>
+                                                    <img src="~/bidsUploads/@item.bid_Image" class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
+                                                </div>
+                                                
+                                                    
+                                               
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs font-weight-bold mb-0">@item.bid_Name</p>
+                                            <p class="text-xs text-secondary mb-0">eBid</p>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs font-weight-bold mb-0">@item.tblbidcategory.Bidcatname</p>
+                                            <p class="text-xs text-secondary mb-0">eBid</p>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            <span class="badge badge-sm bg-gradient-success">@item.bid_MINamount</span>
+                                        </td>
+                                      
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@item.bid_endTime</span>
+                                        </td>
+                                        
+                                        <td class="action" data-title="Remove"><a href="@Url.Action("Delete", "BID", new { id = item.BidID })">Delete</a></td>
+                                             
+                                          
+                                    </tr>
+                                }
+
+                               
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="~/https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="~/https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+<link rel="stylesheet" href="~/code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="~/resources/demos/style.css">
+<style>
+    #resizable {
+        width: 150px;
+        height: 150px;
+        padding: 0.5em;
+    }
+
+        #resizable h3 {
+            text-align: center;
+            margin: 0;
+        }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<script>
+  $( function() {
+    $( ".resizable" ).resizable();
+  } );
+</script>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

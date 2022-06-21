@@ -1,0 +1,182 @@
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.dll.config
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.dll
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.pdb
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.dll
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.SqlServer.dll
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Helpers.dll
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Mvc.dll
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Razor.dll
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.dll
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Razor.dll
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.xml
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.SqlServer.xml
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Razor.xml
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.xml
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Razor.xml
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Helpers.xml
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Mvc.xml
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.csprojResolveAssemblyReference.cache
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.csproj.CoreCompileInputs.cache
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.dll
+C:\Users\a\Desktop\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.pdb
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.dll.config
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.dll
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.pdb
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.dll
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.SqlServer.dll
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Helpers.dll
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Mvc.dll
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Razor.dll
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.dll
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Razor.dll
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.xml
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.SqlServer.xml
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Razor.xml
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.xml
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Razor.xml
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Helpers.xml
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Mvc.xml
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.csprojResolveAssemblyReference.cache
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.csproj.CoreCompileInputs.cache
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.dll
+C:\Users\a\Desktop\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.pdb
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.dll.config
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.dll
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.pdb
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.dll
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Helpers.dll
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Mvc.dll
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Razor.dll
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.dll
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.xml
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Razor.xml
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.xml
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Helpers.xml
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Mvc.xml
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.csprojResolveAssemblyReference.cache
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.dll
+C:\Users\asp\Desktop\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.pdb
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.dll.config
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.dll
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.pdb
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.dll
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.SqlServer.dll
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Helpers.dll
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Mvc.dll
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Razor.dll
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.dll
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Razor.dll
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.xml
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.SqlServer.xml
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Razor.xml
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.xml
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Razor.xml
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Helpers.xml
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Mvc.xml
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.csprojResolveAssemblyReference.cache
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.csproj.CoreCompileInputs.cache
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.dll
+C:\Users\a\Desktop\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.pdb
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.dll.config
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.dll
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.pdb
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.dll
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.SqlServer.dll
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Helpers.dll
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Mvc.dll
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Razor.dll
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.dll
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Razor.dll
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.xml
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.SqlServer.xml
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Razor.xml
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.xml
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Razor.xml
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Helpers.xml
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Mvc.xml
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.csprojResolveAssemblyReference.cache
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.csproj.CoreCompileInputs.cache
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.dll
+C:\Users\asp\Desktop\1march\newwwwwwww\24-2-22\eproject done\New folder\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.pdb
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.dll.config
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.dll
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.pdb
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.dll
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.SqlServer.dll
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Helpers.dll
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Mvc.dll
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Razor.dll
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.dll
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Razor.dll
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.xml
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.SqlServer.xml
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Razor.xml
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.xml
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Razor.xml
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Helpers.xml
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Mvc.xml
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.csprojResolveAssemblyReference.cache
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.csproj.CoreCompileInputs.cache
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.dll
+C:\Users\a\Desktop\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.pdb
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.dll.config
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.dll
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\eBidWEBSITE.pdb
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.dll
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.SqlServer.dll
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Helpers.dll
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Mvc.dll
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Razor.dll
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.dll
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Razor.dll
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.xml
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\EntityFramework.SqlServer.xml
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Razor.xml
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.xml
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Webpages.Razor.xml
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Helpers.xml
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\bin\System.Web.Mvc.xml
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.csprojResolveAssemblyReference.cache
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.csproj.CoreCompileInputs.cache
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.dll
+C:\Users\a\Desktop\ONLINE Auction (eBid)\eBidWEBSITE\eBidWEBSITE\obj\Debug\eBidWEBSITE.pdb

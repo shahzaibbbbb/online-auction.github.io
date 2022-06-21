@@ -1,0 +1,226 @@
+﻿
+
+@model eBidWEBSITE.Models.tblBid
+@{
+    ViewBag.Title = "Checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Checkout</h2>
+
+
+
+<!-- Breadcrumbs -->
+<div class="breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="bread-inner">
+                    <ul class="bread-list">
+                        <li><a href="index1.html">Home<i class="ti-arrow-right"></i></a></li>
+                        <li class="active"><a href="blog-single.html">Cart</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Breadcrumbs -->
+<!-- Shopping Cart -->
+<div class="shopping-cart section">
+    <div class="container">
+
+        <div class="row">
+            @if (TempData["total"] == null)
+            {
+                <h1>cart is empty</h1>
+
+            }
+            else
+            {
+                <div class="col-12">
+                    <!-- Shopping Summery -->
+                    <table class="table shopping-summery">
+                        <thead>
+                            <tr class="main-hading">
+                                <th>ID</th>
+                                <th>PRODUCT</th>
+                                <th>NAME</th>
+                                <th class="text-center">UNIT PRICE</th>
+                                <th class="text-center">QUANTITY</th>
+                                <th class="text-center">TOTAL</th>
+                                <th class="text-center"><i class="ti-trash remove-icon"></i></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in TempData["cart"] as List<eBidWEBSITE.Models.Cart>)
+                            {
+
+                                <tr>
+
+                                    <td class="product-name">
+                                        <h5>@item.BidID</h5>
+                                    </td>
+
+                                    <td class="image" data-title="No"><img src="https://via.placeholder.com/100x100" alt="#"></td>
+                                    <td class="product-des" data-title="Description">
+                                        <p class="product-name"><a href="#">@item.bid_Name</a></p>
+
+                                    </td>
+                                    <td class="price" data-title="MIN Amount"><span>@item.bid_MINamount </span></td>
+                                    <td class="bidding" data-title="bidding">
+                                        <!-- Input Order -->
+                                        @item.bidding
+                                        <!--/ End Input Order -->
+                                    </td>
+                                    <td class="total-amount" data-title="Total"><span>@item.bill</span></td>
+                                    <td class="action" data-title="Remove"><a href="@Url.Action("removecart", "Home", new { id = item.BidID })"><i class="ti-trash remove-icon"></i></a></td>
+
+
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <!--/ End Shopping Summery -->
+                </div>
+            }
+        </div>
+
+
+
+
+
+
+
+
+
+        @if (!User.Identity.IsAuthenticated)
+            {
+            <div class="row">
+                <div class="col-12">
+                    <div class="total-amount">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-5 col-12">
+                                <div class="left">
+
+                                    <a href="@Url.Action("Login","Account")" class="btn btn-primary py-3 px-4">Login</a>
+                                    <a href="@Url.Action("Register","Account")" class="btn btn-primary py-3 px-4">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+
+        <div class="row">
+            <div class="col-12">
+                <div class="total-amount">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-7 col-12 ">
+                            <div class="right">
+                                <ul>
+
+                                    <li>Shipping<span>Free</span></li>
+
+                                    <li class="last">You Pay<span>Rs.@TempData["total"]</span></li>
+                                </ul>
+
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    if (User.IsInRole("2"))
+                                    {
+
+                                        if (TempData["cart"] != null)
+                                        {
+                                            using (Html.BeginForm())
+                                            {
+
+                                                <div class="button5 text-right">
+                                                    <span>Contact :</span> <input type="text" name="contact" class="form-control col-lg-6" />
+                                                    <span>Address :</span><textarea name="address" class="form-control col-lg-6"></textarea>
+                                                    <a class="btn btn-dark" value=>
+                                                        <input type="submit" />
+                                                    </a>
+
+
+                                                </div>
+
+                                            }
+                                        }
+                                    }
+                                }
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--/ End Total Amount -->
+            </div>
+        </div>
+    </div>
+</div>
+<!--/ End Shopping Cart -->
+<!-- Start Shop Services Area  -->
+<section class="shop-services section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+                <!-- Start Single Service -->
+                <div class="single-service">
+                    <i class="ti-rocket"></i>
+                    <h4>Free shiping</h4>
+                    <p>Orders over $100</p>
+                </div>
+                <!-- End Single Service -->
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <!-- Start Single Service -->
+                <div class="single-service">
+                    <i class="ti-reload"></i>
+                    <h4>Free Return</h4>
+                    <p>Within 30 days returns</p>
+                </div>
+                <!-- End Single Service -->
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <!-- Start Single Service -->
+                <div class="single-service">
+                    <i class="ti-lock"></i>
+                    <h4>Sucure Payment</h4>
+                    <p>100% secure payment</p>
+                </div>
+                <!-- End Single Service -->
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <!-- Start Single Service -->
+                <div class="single-service">
+                    <i class="ti-tag"></i>
+                    <h4>Best Peice</h4>
+                    <p>Guaranteed price</p>
+                </div>
+                <!-- End Single Service -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Shop Newsletter -->
+<!-- Start Shop Newsletter  -->
+<section class="shop-newsletter section">
+    <div class="container">
+        <div class="inner-top">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-12">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Shop Newsletter -->
+    <

@@ -1,0 +1,484 @@
+﻿@model eBidWEBSITE.Models.tblBid
+@{
+    ViewBag.Title = "AddtoCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<script src="~/Content/detailpage/detail.js"></script>
+
+<link href="~/Content/detailpage/detail.css" rel="stylesheet" />
+
+
+
+
+<div aria-label="Main content" role="main" class="product-detail" style="margin-top:100px;">
+
+@using (Html.BeginForm())
+{
+
+       
+        <div class="shadow">
+            <div class="_cont detail-top">
+                <div class="cols">
+                    <div class="left-col">
+                        <div class="thumbs">
+                            <a class="thumb-image active" href="~/bidsUploads/@Model.bid_Image" data-index="0">
+                                <span><img src="~/bidsUploads/@Model.bid_Image" ></span>
+                            </a>
+                           
+                        </div>
+                        <div class="big">
+                            <span id="big-image" class="img text-center" quickbeam="image"><img src="/bidsUploads/@Model.bid_Image" style="height:500px; width:500px;"></span>
+                            <div id="banner-gallery" class="swipe">
+                                <div class="swipe-wrap">
+                                    <img src="/bidsUploads/@Model.bid_Image">
+                                 
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                    <div class="right-col">
+                        <h1 itemprop="name">@Model.bid_Name</h1>
+                      
+                            <meta itemprop="priceCurrency" content="USD">
+                          
+                            <div class="price-shipping">
+                                <div class="price" id="price-preview" quickbeam="price" quickbeam-price="800">
+                                    $@Model.bid_MINamount
+                                </div>
+                                <a>Free shipping</a>
+                            </div>
+
+
+
+
+                            <div class="cown-down1">
+
+                                <div class="content">
+
+                                    <div class="coming-time">
+
+                                        <div class="clearfix" data-countdown="@Model.bid_endTime"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                        
+                  @if (Model.Status == 1)
+                  {
+
+
+                    <div class="purchase-info">
+                        <input type="number" min=" @Model.bid_MINamount" value="@Model.bid_MINamount" max="" name="bidding" class="quantity-input" data-quantity-target="" />
+
+
+
+
+                        <button value="Bid closed" class="btn">
+
+                            Bid closed <i class="fa-solid fa-gavel"></i>
+                        </button>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  }
+                  else
+                  {
+
+                    <div class="purchase-info">
+                        <input type="number" min=" @Model.bid_MINamount" value="@Model.bid_MINamount" max="" name="bidding" class="quantity-input" data-quantity-target="" />
+
+
+
+
+                        <button type="submit" value="Add to Cart" class="btn">
+
+                            Place Your Bid <i class="fa-solid fa-gavel"></i>
+                        </button>
+
+                    </div>
+
+
+                  }
+
+
+
+                            <div class="tabs">
+                                <div class="tab-labels">
+                                  
+                                    <span data-id="2">Detail:</span>
+                                </div>
+
+                                <div class="tab-slides">
+                                    <div id="tab-slide-1" itemprop="description" class="slide active">
+                                      @Model.bid_Description
+                                    </div>
+                                    <div id="tab-slide-2" class="slide">
+                                        Tony Hunfinger
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social-sharing-btn-wrapper">
+                                <span id="social_sharing_btn">Share</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    }
+        <aside class="related">
+            <div class="_cont">
+                <h2>You might also like</h2>
+                </div>
+               </aside>
+
+
+<!-- Quickbeam cart-->
+
+<!-- Quickbeam cart end -->
+
+
+
+
+
+
+
+
+
+<style>
+    .cown-down1 {
+        position: relative;
+        height: 100px;
+        overflow: hidden;
+    }
+
+
+
+        .cown-down1 .padding-left {
+            padding-left: 0;
+        }
+
+
+
+        .cown-down1 .content {
+            text-align: center;
+            background: #FDFBEF;
+            height: 100%;
+            position: relative;
+        }
+
+            .cown-down1 .content .heading-block {
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                padding: 75px;
+            }
+
+            .cown-down1 .content .small-title {
+                font-size: 13px;
+                color: #777;
+                display: block;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+                font-weight: 600;
+            }
+
+            .cown-down1 .content .title {
+                font-size: 25px;
+                font-weight: 600;
+                margin-bottom: 20px;
+                text-transform: capitalize;
+            }
+
+            .cown-down1 .content .price {
+                margin-top: 35px;
+                font-size: 35px;
+                font-weight: 700;
+                color: #be263f;
+            }
+
+                .cown-down1 .content .price s {
+                    margin-top: 35px;
+                    font-size: 24px;
+                    font-weight: 500;
+                    color: #666;
+                }
+
+            .cown-down1 .content .cdown {
+                float: left;
+                text-align: center;
+                margin-top: 40px;
+                width: 80px;
+                display: inline-block;
+            }
+
+
+            .cown-down1 .content .cdown {
+                display: inline-block;
+            }
+
+                .cown-down1 .content .cdown span {
+                    color: #333;
+                    font-size: 22px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                .cown-down1 .content .cdown p {
+                    font-size: 13px;
+                    color: #666;
+                    text-transform: uppercase;
+                }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="~/css/font-awesome.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*@model eBidWEBSITE.Models.tblProduct
+
+
+
+
+
+
+
+
+@using (Html.BeginForm())
+{
+
+<div class="card-wrapper">
+    <div class="card"  style="min-width:900px; min-height:600px;">
+        <!-- card left -->
+        <div class="product-imgs">
+            <div class="img-display">
+                <div class="img-showcase">
+                    <img src="~/productUploads/@Model.pro_Image" style="height:250px;width:100%" />
+                    
+                </div>
+            </div>
+            
+        </div>
+        <!-- card right -->
+        <div class="product-content">
+            <h2 class="product-title">@Model.pro_Name</h2>
+            <a href="#" class="product-link">@Model.tblCategory.CategoryName</a>
+           
+            <div class="product-price">
+                
+                <p class="new-price">Price per Unit: <span>$@Model.pro_price </span></p>
+            </div>
+            <div class="product-detail">
+                <h2>Detail: </h2>
+                <p>@Model.pro_Description</p>
+                
+               
+            </div>
+            <div class="purchase-info">
+                <input type="number" min="0" value="1" max="20" name="qty"/>
+
+              
+                
+
+                <button  type="submit" value="Add to Cart" class="btn" style="min-width:40px;">
+
+                    Add to Cart <i class="fas fa-shopping-cart"></i>
+                </button>
+               
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+
+}*@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="~/css/detailpage.css" rel="stylesheet" />
+<link href="~/css/detailpage.css" rel="stylesheet" />

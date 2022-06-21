@@ -1,0 +1,183 @@
+﻿@model IEnumerable<eBidWEBSITE.Models.user_invoices>
+@{
+    ViewBag.Title = "OrderDetail";
+    Layout = "~/Views/dashboard/_dashboard.cshtml";
+}
+
+
+
+
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card my-4">
+                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                        <h6 class="text-white text-capitalize ps-3">USERS table</h6>
+                    </div>
+                </div>
+                <div class="card-body px-0 pb-2">
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Users</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Bill</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Payment</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">InvoiceDate</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
+
+
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                          @foreach (var item in Model)
+                          {
+
+
+                           
+
+                                    <tr>
+
+                        
+                                      
+                  
+                    
+
+                   
+
+
+                                        <td>
+                                            <p class="text-xs font-weight-bold mb-0">@item.InvoiceId</p>
+                                          
+                                        </td>
+
+                                      
+
+
+                                        <td class="align-middle text-center text-sm">
+                                            <span class="badge badge-sm bg-gradient-success">@item.Bill</span>
+                                        </td>
+
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@item.Payment</span>
+                                        </td>
+
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@item.InvoiceDate</span>
+                                        </td>
+
+
+
+                                        <td>
+                                           
+                                            
+                                                <span class="btn btn-success">Approve</span>
+                                          
+                                        </td>
+                    
+
+
+                                    </tr>
+
+
+                                
+                        }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*<div class="container">
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.user)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bill)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Payment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InvoiceDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+
+            <th>Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.user)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Bill)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Payment)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.InvoiceDate)
+                </td>
+
+                <td>
+                    <span class="btn btn-success">Approve</span>
+                </td>
+                <td>
+                    <a href="@Url.Action("Invoice", "Home", new { id = item.InvoiceId })" class="btn btn-primary">Print</a>
+                </td>
+
+            </tr>
+        }
+
+    </table>
+
+</div>*@

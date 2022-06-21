@@ -1,0 +1,135 @@
+﻿@model eBidWEBSITE.Models.tblContact
+@{
+    ViewBag.Title = "contactPAGE";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+	
+	<!-- Breadcrumbs -->
+	<div class="breadcrumbs">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="bread-inner">
+						<ul class="bread-list">
+							<li><a href="@Url.Action("Index","Home")">Home<i class="ti-arrow-right"></i></a></li>
+							<li class="active"><a >Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Breadcrumbs -->
+  
+	<!-- Start Contact -->
+	<section id="contact-us" class="contact-us section">
+		<div class="container">
+				<div class="contact-head">
+					<div class="row">
+						<div class="col-lg-8 col-12">
+							<div class="form-main">
+								<div class="title">
+									<h4>Get in touch</h4>
+									<h3>Write us a message</h3>
+								</div>
+
+
+@using (Html.BeginForm("contactPAGE", "Home", FormMethod.Post))
+
+
+{
+
+								<div class="form" method="post">
+									<div class="row">
+										<div class="col-lg-6 col-12">
+											<div class="form-group">
+												<label>Your Name<span>*</span></label>
+                                                @Html.ValidationMessageFor(m => m.Contact_name, null, new { @class = "text-danger" })
+                                                @Html.TextBoxFor(m =>m.Contact_name, null, new {  @class = "form_input input_name input_ph" })
+											</div>
+										</div>
+										<div class="col-lg-6 col-12">
+											<div class="form-group">
+												<label>Your Subjects<span>*</span></label>
+                                                @Html.ValidationMessageFor(m => m.Contact_subject, null, new { @class = "text-danger" })
+                                                @Html.TextBoxFor(m => m.Contact_subject, null, new { @class = "form_input input_name input_ph" })
+											</div>
+										</div>
+										<div class="col-lg-6 col-12">
+											<div class="form-group">
+												<label>Your Email<span>*</span></label>
+											@Html.ValidationMessageFor(m => m.Contact_email, null, new { @class = "text-danger" })
+                                            @Html.TextBoxFor(m => m.Contact_email, null, new { @class = "form_input input_name input_ph" })
+											</div>	
+										</div>
+										<div class="col-lg-6 col-12">
+											<div class="form-group">
+												<label>Your Phone<span>*</span></label>
+                                                @Html.ValidationMessageFor(m => m.Contact_phone, null, new { @class = "text-danger" })
+                                                @Html.TextBoxFor(m => m.Contact_phone, null, new { @class = "form_input input_name input_ph" })
+											</div>	
+										</div>
+										<div class="col-12">
+											<div class="form-group message">
+												<label>your message<span>*</span></label>
+											
+                                                     @Html.TextAreaFor(m => m.Contact_message, new { @class = "textarea input_name input_ph" })
+                                    
+											</div>
+										</div>
+                                        <div class="col-12">
+                                            <div class="form-group button">
+                                                <input type="submit" class="btn" value="Send message" />
+                                            </div>
+                                        </div>
+                                        @TempData["msg"]
+									</div>
+								</div>
+}
+							</div>
+						</div>
+						<div class="col-lg-4 col-12">
+							<div class="single-head">
+								<div class="single-info">
+									<i class="fa fa-phone"></i>
+									<h4 class="title">Call us Now:</h4>
+									<ul>
+										<li>+123 456-789-1120</li>
+										<li>+522 672-452-1120</li>
+									</ul>
+								</div>
+								<div class="single-info">
+									<i class="fa fa-envelope-open"></i>
+									<h4 class="title">Email:</h4>
+									<ul>
+										<li><a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a></li>
+										<li><a href="mailto:info@yourwebsite.com">support@yourwebsite.com</a></li>
+									</ul>
+								</div>
+								<div class="single-info">
+									<i class="fa fa-location-arrow"></i>
+									<h4 class="title">Our Address:</h4>
+									<ul>
+										<li>KA-62/1, Travel Agency, 45 Grand Central Terminal, New York.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<!--/ End Contact -->
+	
+	<!-- Map Section -->
+	<div class="map-section">
+		<div id="myMap" style="margin-bottom:250px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1809.0685462379527!2d67.03197411424014!3d24.927399251314935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bec9a880!2sAptech%20Computer%20Education%20North%20Nazimabad%20Center!5e0!3m2!1sen!2s!4v1645694244480!5m2!1sen!2s" width="2000" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+	</div>
+	<!--/ End Map Section -->
+	

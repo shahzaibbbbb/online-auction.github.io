@@ -1,0 +1,123 @@
+.banner1 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #bf925b;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.boxs1 {
+    position: absolute;
+    background: #f0ecec;
+    z-index: 2;
+    width: 100%;
+    min-height: 60vh;
+    padding: 30px;
+    top: 200px;
+    left: -15px;
+    margin-bottom: 300px;
+    border-right: 55px solid #be263f;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+    .boxs1 .texts {
+        width: 100%;
+        padding-left: 50px;
+        padding-top: 20px;
+        line-height: 1.7;
+        letter-spacing: 4px;
+    }
+
+    .boxs1 h1 {
+        padding-left: 50px;
+        font-size: 70px;
+        font-weight: 900;
+        color: #be263f;
+    }
+
+.fitbg1 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(14, 14, 14, 0.479);
+    min-height: 100vh;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+
+.fitbg1 img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    object-fit: fill;
+}
+@media (max-width: 1294px)
+{
+    .boxs1 {
+        position: absolute;
+        background: #f0ecec;
+        z-index: 2;
+        width: 85vw;
+        min-height: 80vh;
+        padding: 20px;
+        top: 20px;
+        left: -15px;
+        margin-bottom: 300px;
+       
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+       
+
+        .boxs1 h1 {
+            font-size: 30px;
+            padding-left: 0;
+        }
+
+        .boxs1 p {
+            font-size: 15px;
+            padding-left: 0;
+        }
+
+}
+
+
+
+@media (max-width: 887px) {
+    .banner1 {
+        padding: 0;
+    }
+
+    .boxs1.text {
+        padding: 10px;
+        height: 10%;
+        width:50%;
+    }
+
+    .boxs1 text {
+        line-height: 1;
+        text-justify: newspaper;
+        letter-spacing: normal;
+    }
+
+    .boxs1 h1 {
+        font-size: 40px;
+        padding-left: 0;
+    }
+}

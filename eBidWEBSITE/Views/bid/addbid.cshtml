@@ -1,0 +1,111 @@
+﻿@model eBidWEBSITE.Models.tblBid
+@{
+    ViewBag.Title = "displaybid";
+    Layout = "~/Views/dashboard/_dashboard.cshtml";
+}
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/calendercustom.js"></script>
+<script src="~/Scripts/bootstrap-datetimepicker.min.js"></script>
+<script src="~/Scripts/moment.min.js"></script>
+<link href="~/Content/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+<script src="~/js/jquery.min.js"></script>
+<script src="~/js/jquery-migrate-3.0.0.js"></script>
+<script src="~/js/jquery-ui.min.js"></script>
+<link href="~/Content/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+<link href="~/Content/themes/base/datepicker.css" rel="stylesheet" />
+<script src="~/Content/dashboard/jquery.js"></script>
+<script src="~/Content/dashboard/jquery-3.3.1.min.js"></script>
+
+ <script>
+     $(function () {
+         $(".datepicker").datepicker();
+     });
+ </script>
+
+<link rel="stylesheet" href="~//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="~/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+
+
+@using (Html.BeginForm("addbid", "BID", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+<div class="container">
+    <div class="title text-center">ADD YOUR BID</div>
+    <div class="content text-center">
+        
+            <div class="user-details text-center">
+                <div class="input-box text-center ">
+                    <span class="details">Product Name</span>
+                    @Html.TextBoxFor(m => m.bid_Name, new { @class = "form-control" })
+                </div>
+                <div class="input-box text-center">
+                    <span class="details">Category</span>
+                    @Html.DropDownListFor(m => m.CatId, ViewBag.CatList as SelectList, "-- Select Category ---")
+                </div>
+                <div class="input-box text-center">
+                    <span class="details">Starting bid </span>
+                    @Html.TextBoxFor(m => m.bid_MINamount, new { @class = "form-control" })
+                </div>
+
+                <div class="input-box text-center">
+                    <span class="details">End Date:</span>
+                    @Html.EditorFor(m => m.bid_endTime, new { htmlAttributes = new { @class = "datepicker" } })
+
+                </div>
+
+
+                <div class="form-group input-box message text-center">
+                    <label>Product Description<span>*</span></label>
+
+                    @Html.TextBoxFor(m => m.bid_Description, new { @class = "form-control" })
+
+                </div>
+            </div>
+
+
+          
+                        <span>Select Image:</span>
+                        <input type="file" name="Image" />
+                   <br>
+        <br>
+        <div class="form-group">
+            <input type="submit" value="Register" class="btn btn-primary py-3 px-5">
+        </div>
+         
+          
+               
+            
+        <h3 style="color:red;">@TempData["msg"]</h3>
+        </div>
+    </div>
+ 
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="~/css/form.css" rel="stylesheet" />

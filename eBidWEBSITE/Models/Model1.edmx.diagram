@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2be29aa58f7c47b1ac992a7276552d24" Name="Diagram1" ZoomLevel="95">
+        <EntityTypeShape EntityType="ebidModel.tblCategory" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ebidModel.tblInvoice" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ebidModel.tblOrder" Width="1.5" PointX="5.5" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ebidModel.tblProduct" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ebidModel.tblUser" Width="1.5" PointX="0.875" PointY="4.625" IsExpanded="true" />
+        <AssociationConnector Association="ebidModel.FK_tblProducts_tblCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="ebidModel.FK__tblInvoic__UserI__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="ebidModel.FK__tblOrder__Invoic__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="ebidModel.FK_tblOrder_tblProducts" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ebidModel.vw_getallproducts" Width="1.5" PointX="10.875" PointY="0.75" />
+        <EntityTypeShape EntityType="ebidModel.getallorderuser" Width="1.5" PointX="9.875" PointY="3.25" />
+        <EntityTypeShape EntityType="ebidModel.user_invoices" Width="1.5" PointX="9.125" PointY="0.75" />
+        <AssociationConnector Association="ebidModel.FK__tblProducts__uid__6E01572D" />
+        <EntityTypeShape EntityType="ebidModel.tblbidcategory" Width="1.5" PointX="0.5" PointY="9.375" />
+        <EntityTypeShape EntityType="ebidModel.tblBid" Width="1.5" PointX="2.75" PointY="8.375" />
+        <AssociationConnector Association="ebidModel.FK__tblBid__CatId__160F4887" />
+        <AssociationConnector Association="ebidModel.FK__tblBid__uid__17036CC0" ManuallyRouted="false" >
+        </AssociationConnector>
+        <EntityTypeShape EntityType="ebidModel.tblContact" Width="1.5" PointX="9.625" PointY="6.125" />
+        <AssociationConnector Association="ebidModel.FK__tblOrder__bidid__4D5F7D71" />
+        <EntityTypeShape EntityType="ebidModel.getallorder" Width="1.5" PointX="11.5" PointY="3.25" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
